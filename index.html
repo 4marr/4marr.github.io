@@ -24,7 +24,7 @@
 
 <body class="dark:bg-d-base dark:text-d-on-base bg-l-base text-l-on-base">
     <header id="header" class="fixed bottom-0 lg:top-0 w-full h-16 z-50 bg-l-base dark:bg-d-base">
-        <div class="full h-full mx-auto px-10">
+        <div class="full h-full mx-auto max-w-screen-lg px-10">
             <div class="relative flex justify-center sm:justify-between items-center h-full w-full">
                 <div class="hidden sm:flex gap-1 font-bold text-lg">
                     <a href="/"
@@ -36,42 +36,42 @@
                     </a>
                 </div>
                 <div class="">
-                    <nav class="flex items-center justify-center text-lg gap-4 text-l-on-base dark:text-d-on-base">
+                    <nav class="flex items-center justify-center text-sm gap-4 font-semibold text-l-on-base dark:text-d-on-base">
                         <a href="/"
                             class="hidden h-8 rounded-full md:flex items-center justify-center transition-colors duration-300 ease-in-out">Home
                         </a>
                         <a href="/"
                             class="flex h-8 rounded-full md:hidden items-center justify-center transition-colors duration-300 ease-in-out">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
                                 <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="1.5">
+                                    stroke-width="2">
                                     <path
                                         d="M6.133 21C4.955 21 4 20.02 4 18.81v-8.802c0-.665.295-1.295.8-1.71l5.867-4.818a2.09 2.09 0 0 1 2.666 0l5.866 4.818c.506.415.801 1.045.801 1.71v8.802c0 1.21-.955 2.19-2.133 2.19z" />
                                     <path d="M9.5 21v-5.5a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2V21" />
                                 </g>
                             </svg>
                         </a>
-                        <a href="blog/index.html"
-                            class="hidden h-8 rounded-full text-current md:flex items-center justify-center transition-colors duration-300 ease-in-out">Blog
+                        <a href="blog"
+                            class="hidden h-8 rounded-full text-l-on-base/50 dark:text-d-on-base/50 hover:text-current md:flex items-center justify-center transition-colors duration-300 ease-in-out">Blog
                         </a>
-                        <a href="blog/index.html"
+                        <a href="blog"
                             class="flex h-8 rounded-full md:hidden items-center justify-center transition-colors duration-300 ease-in-out">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="1.5"
+                                    stroke-width="2"
                                     d="M5 20.25c0 .414.336.75.75.75h10.652C17.565 21 18 20.635 18 19.4v-1.445M5 20.25A2.25 2.25 0 0 1 7.25 18h10.152q.339 0 .598-.045M5 20.25V6.2c0-1.136-.072-2.389 1.092-2.982C6.52 3 7.08 3 8.2 3h9.2c1.236 0 1.6.437 1.6 1.6v11.8c0 .995-.282 1.425-1 1.555" />
                             </svg>
                         </a>
-                        <a href="projects/index.html"
-                            class="hidden h-8 rounded-full text-current md:flex items-center justify-center transition-colors duration-300 ease-in-out">Projects
+                        <a href="projects"
+                            class="hidden h-8 rounded-full text-l-on-base/50 dark:text-d-on-base/50 hover:text-current md:flex items-center justify-center transition-colors duration-300 ease-in-out">Projects
                         </a>
-                        <a href="projects/index.html"
+                        <a href="projects"
                             class="flex h-8 rounded-full md:hidden items-center justify-center transition-colors duration-300 ease-in-out">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.77 21c1.123-4.649 2.486-6.099 6.23-7.364c-3.934-1.328-5.16-2.94-6.23-7.363c-1.124 4.649-2.488 6.098-6.232 7.363c3.93 1.327 5.163 2.95 6.231 7.364m-8.308-9.818c.512-2.42 1.502-3.512 3.461-4.091C7.963 6.512 6.973 5.42 6.462 3C5.972 5.315 5.047 6.485 3 7.09c1.959.58 2.95 1.672 3.462 4.092"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M4.75 7a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5zM5 4.75A.75.75 0 0 1 5.75 4h5.5a.75.75 0 0 1 0 1.5h-5.5A.75.75 0 0 1 5 4.75M6.75 10a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5z"/><path fill="currentColor" d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Z"/></svg>
                         </a>
                         <a href="https://github.com/4marr"
                             class="h-8 rounded-full text-current flex items-center transition-colors duration-300 ease-in-out">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                                 <g fill="none">
                                     <path
                                         d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
@@ -82,14 +82,14 @@
                         </a>
                         <a href="https://www.instagram.com/ammaricano"
                             class="h-8 rounded-full text-current flex items-center justify-center transition-colors duration-300 ease-in-out">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                                 <path fill="currentColor"
                                     d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
                             </svg>
                         </a>
                         <a href="mailto:ammarithm@gmail.com"
                             class="h-8 rounded-full text-current flex items-center justify-center transition-colors duration-300 ease-in-out">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                                 <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2">
                                     <rect width="20" height="16" x="2" y="4" rx="2" />
@@ -98,8 +98,8 @@
                             </svg>
                         </a>
                         <button id="drawer-theme-button" aria-label="Toggle light and dark theme" class="flex items-center justify-center bg-transparent stroke-current dark:stroke-d-on-base transition-colors duration-300 ease-in-out">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="block dark:hidden size-full"><path fill="currentColor" d="m21.067 11.857l-.642-.388zm-8.924-8.924l-.388-.642zM21.25 12A9.25 9.25 0 0 1 12 21.25v1.5c5.937 0 10.75-4.813 10.75-10.75zM12 21.25A9.25 9.25 0 0 1 2.75 12h-1.5c0 5.937 4.813 10.75 10.75 10.75zM2.75 12A9.25 9.25 0 0 1 12 2.75v-1.5C6.063 1.25 1.25 6.063 1.25 12zm12.75 2.25A5.75 5.75 0 0 1 9.75 8.5h-1.5a7.25 7.25 0 0 0 7.25 7.25zm4.925-2.781A5.75 5.75 0 0 1 15.5 14.25v1.5a7.25 7.25 0 0 0 6.21-3.505zM9.75 8.5a5.75 5.75 0 0 1 2.781-4.925l-.776-1.284A7.25 7.25 0 0 0 8.25 8.5zM12 2.75a.38.38 0 0 1-.268-.118a.3.3 0 0 1-.082-.155c-.004-.031-.002-.121.105-.186l.776 1.284c.503-.304.665-.861.606-1.299c-.062-.455-.42-1.026-1.137-1.026zm9.71 9.495c-.066.107-.156.109-.187.105a.3.3 0 0 1-.155-.082a.38.38 0 0 1-.118-.268h1.5c0-.717-.571-1.075-1.026-1.137c-.438-.059-.995.103-1.299.606z"/></svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" class="hidden dark:block size-full"><g fill="none"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" clip-path="url(#mageSun0)"><path d="M12 17.885a5.885 5.885 0 1 0 0-11.77a5.885 5.885 0 0 0 0 11.77m-9.281-5.879H1.5m21 0h-1.207m-9.287-9.287V1.5m0 21v-1.207M5.435 5.435l-.859-.859m14.848 14.848l-.86-.86m.001-13.129l.858-.859M4.576 19.424l.86-.86"/></g><defs><clippath id="mageSun0"><path fill="#fff" d="M0 0h24v24H0z"/></clippath></defs></g></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="block dark:hidden"><path fill="currentColor" stroke-width="0.5" d="m21.067 11.857l-.642-.388zm-8.924-8.924l-.388-.642zM21.25 12A9.25 9.25 0 0 1 12 21.25v1.5c5.937 0 10.75-4.813 10.75-10.75zM12 21.25A9.25 9.25 0 0 1 2.75 12h-1.5c0 5.937 4.813 10.75 10.75 10.75zM2.75 12A9.25 9.25 0 0 1 12 2.75v-1.5C6.063 1.25 1.25 6.063 1.25 12zm12.75 2.25A5.75 5.75 0 0 1 9.75 8.5h-1.5a7.25 7.25 0 0 0 7.25 7.25zm4.925-2.781A5.75 5.75 0 0 1 15.5 14.25v1.5a7.25 7.25 0 0 0 6.21-3.505zM9.75 8.5a5.75 5.75 0 0 1 2.781-4.925l-.776-1.284A7.25 7.25 0 0 0 8.25 8.5zM12 2.75a.38.38 0 0 1-.268-.118a.3.3 0 0 1-.082-.155c-.004-.031-.002-.121.105-.186l.776 1.284c.503-.304.665-.861.606-1.299c-.062-.455-.42-1.026-1.137-1.026zm9.71 9.495c-.066.107-.156.109-.187.105a.3.3 0 0 1-.155-.082a.38.38 0 0 1-.118-.268h1.5c0-.717-.571-1.075-1.026-1.137c-.438-.059-.995.103-1.299.606z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="hidden dark:block"><g fill="none"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" clip-path="url(#mageSun0)"><path d="M12 17.885a5.885 5.885 0 1 0 0-11.77a5.885 5.885 0 0 0 0 11.77m-9.281-5.879H1.5m21 0h-1.207m-9.287-9.287V1.5m0 21v-1.207M5.435 5.435l-.859-.859m14.848 14.848l-.86-.86m.001-13.129l.858-.859M4.576 19.424l.86-.86"/></g><defs><clippath id="mageSun0"><path fill="#fff" d="M0 0h24v24H0z"/></clippath></defs></g></svg>
                         </button>
                     </nav>
                 </div>
@@ -108,8 +108,8 @@
     </header>
     <main class="overflow-hidden">
         <section class="flex min-h-screen items-center justify-center">
-            <div class="flex items-center justify-center min-h-70vh p-12 pb-24 md:py-0">
-                <div class="w-full grid gap-3 max-w-xl slide-enter-content">
+            <div class="flex items-center justify-center min-h-screen p-12 pb-24 md:py-0 lg:pt-10">
+                <div class="grid gap-6 py-4 max-w-3xl mx-auto px-12 slide-enter-content">
                     <h1 class="dark:text-[#e5e7eb] text-4xl font-bold item">
                         Ammar<span class="text-sm font-normal opacity-75 ml-1">as <span
                                 class="bold underline">ammaricano</span></span>
