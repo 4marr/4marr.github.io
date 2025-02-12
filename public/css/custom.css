@@ -20,7 +20,7 @@ body{
 
 .animate {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(10px);
     transition: opacity 1s ease,transform 1s ease
 }
 
@@ -139,4 +139,8 @@ article img {
 
 #drawer[data-astro-cid-hxtyo74s].open {
     height: 100%
+}
+
+a {
+    text-decoration: underline;
 }
