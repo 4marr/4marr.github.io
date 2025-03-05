@@ -20,8 +20,8 @@ body{
 
 .animate {
     opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 1s ease,transform 1s ease
+    transform: translateY(20px);
+    transition: opacity 1.5s ease,transform 1.5s ease
 }
 
 .animate.show {
@@ -34,109 +34,4 @@ article img {
     padding-bottom: 20px;
     display: block;
     margin: 0 auto
-}
-
-#twinkle-star.template {
-    position: absolute;
-    left: -100%
-}
-
-@keyframes twinkle {
-    0% {
-        opacity: 0;
-        transform: rotate(0)
-    }
-
-    50% {
-        opacity: 1;
-        transform: rotate(180deg)
-    }
-
-    to {
-        opacity: 0;
-        transform: rotate(360deg)
-    }
-}
-
-#twinkle-star.twinkle {
-    animation: twinkle 2s ease-in-out forwards
-}
-
-#meteors .shower {
-    position: absolute;
-    inset: 0 0 0 50%;
-    --tw-translate-x: -50%;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-    aspect-ratio: 1 / 1;
-    width: 100vw
-}
-
-@keyframes meteor {
-    0% {
-        opacity: 0;
-        transform: translateY(200%)
-    }
-
-    50% {
-        opacity: 1
-    }
-
-    to {
-        opacity: 0;
-        transform: translateY(0)
-    }
-}
-
-#meteors .meteor {
-    animation: meteor 3s ease-in-out forwards;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 75vh;
-    width: 1px;
-    background-image: linear-gradient(to bottom,var(--tw-gradient-stops));
-    --tw-gradient-from: #fff var(--tw-gradient-from-position);
-    --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-    --tw-gradient-to: transparent var(--tw-gradient-to-position)
-}
-
-#meteors .shower.ur {
-    --tw-rotate: 45deg;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
-#meteors .shower.dr {
-    --tw-rotate: 135deg;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
-#meteors .shower.dl {
-    --tw-rotate: 225deg;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
-#meteors .shower.ul {
-    --tw-rotate: 315deg;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
-#header-drawer-button[data-astro-cid-3ef6ksr2]>#drawer-open[data-astro-cid-3ef6ksr2] {
-    display: block
-}
-
-#header-drawer-button[data-astro-cid-3ef6ksr2]>#drawer-close[data-astro-cid-3ef6ksr2] {
-    display: none
-}
-
-#header-drawer-button[data-astro-cid-3ef6ksr2].open>#drawer-open[data-astro-cid-3ef6ksr2] {
-    display: none
-}
-
-#header-drawer-button[data-astro-cid-3ef6ksr2].open>#drawer-close[data-astro-cid-3ef6ksr2] {
-    display: block
-}
-
-#drawer[data-astro-cid-hxtyo74s].open {
-    height: 100%
 }
